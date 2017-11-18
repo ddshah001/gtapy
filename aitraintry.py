@@ -19,7 +19,7 @@ def keys_to_output(keys):
 
     return output
 
-file_name = "training_data/train_data.npy"
+file_name = "training_data/train_datav1.npy"
 if os.path.isfile(file_name):
     print("loaing previous data...")
     training_data = list(np.load(file_name))
