@@ -5,6 +5,20 @@ import pyautogui
 from directkeys import PressKey, ReleaseKey, W, A, S, D
 from draw_lanes import draw_lanes
 from grabscreen import grab_screen
+from getkeys import key_check
+
+def keys_to_output(keys):
+    #[A,W,D]
+    output = [0,0,0]
+
+    if 'A' in keys:
+        output[0] = 1
+    elif 'D' in keys:
+        output[2] = 1
+    else:
+        output[1] = 1
+
+    return output
 
 
 def roi(img, vertices):
