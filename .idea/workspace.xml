@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09291c5e-e3a2-4e8f-bb67-8eddc86bbf6b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testnuralnetwork.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testnuralnetwork.py" afterPath="$PROJECT_DIR$/testnuralnetwork.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,8 +63,8 @@
       <file leaf-file-name="testnuralnetwork.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testnuralnetwork.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="49" column="60" lean-forward="true" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
+            <state relative-caret-position="1728">
+              <caret line="64" column="26" lean-forward="true" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -354,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511035095027</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="data balanced &#10;&#10;test ready..">
+      <created>1511071581188</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1511071581188</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -389,7 +396,8 @@
     <MESSAGE value="Get Keys added to record keys." />
     <MESSAGE value="data balanced &#10;&#10;training data 45K samples.." />
     <MESSAGE value="data balanced &#10;&#10;trained model with balanced data.." />
-    <option name="LAST_COMMIT_MESSAGE" value="data balanced &#10;&#10;trained model with balanced data.." />
+    <MESSAGE value="data balanced &#10;&#10;test ready.." />
+    <option name="LAST_COMMIT_MESSAGE" value="data balanced &#10;&#10;test ready.." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -688,8 +696,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testnuralnetwork.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="49" column="60" lean-forward="true" selection-start-line="49" selection-start-column="60" selection-end-line="49" selection-end-column="60" />
+        <state relative-caret-position="1728">
+          <caret line="64" column="26" lean-forward="true" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

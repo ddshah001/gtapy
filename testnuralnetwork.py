@@ -9,11 +9,13 @@ from alexnet import alexnet
 from directkeys import PressKey, ReleaseKey, W, A, S, D
 
 
-WIDTH = 80
-HEIGHT = 60
+WIDTH = 160
+HEIGHT = 120
 LR = 1e-3
-EPOCHS = 8
-MODEL_NAME = 'gtapy-car-{}-{}-{}-epochs.model'.format(LR,'alexnetv2',EPOCHS)
+EPOCHS = 10
+MODEL_NAME = 'pygta5-car-fast-{}-{}-{}-epochs-300K-data.model'.format(LR,'alexnetv2',EPOCHS)
+
+#pygta5-car-fast-0.001-alexnetv2-10-epochs-300K-data.model
 
 def straight():
     PressKey(W)
@@ -48,7 +50,7 @@ def main():
         if not paused:
             screen = grab_screen(region=(0, 40, 800, 640))
             screen = cv2.cvtColor(screen,cv2.COLOR_BGR2GRAY)
-            screen = cv2.resize(screen,(80,60))
+            screen = cv2.resize(screen,(160,120))
 
             print('Frame took {} seconds'.format(time.time() - last_time))
             last_time = time.time()
